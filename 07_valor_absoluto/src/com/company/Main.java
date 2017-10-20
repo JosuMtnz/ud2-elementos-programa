@@ -16,10 +16,10 @@ public class Main {
         if (n == 0) {
             System.out.println("Fin.");
         } else {
-            if (n < 0) {
-                System.out.println("Escribe un número mayor que 0");
+            if (n > 0) {
+                System.out.println("El valor absoluto es "+n);
             } else {
-                n =(n*2)-n;
+                n =(n * -1);
                 System.out.println("El valor absoluto es "+n);
             }
         }
