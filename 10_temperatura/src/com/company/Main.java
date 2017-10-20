@@ -24,12 +24,12 @@ public class Main {
         switch (seleccion) {
             case "K":
             case "k":
-                temperatura = 32 + temperatura;
+                temperatura = temperatura + 273.15;
                 System.out.println(temperatura+" ªK");
                 break;
             case "F":
             case "f":
-                temperatura = 100 + temperatura;
+                temperatura = (temperatura * 1.8) + 32;
                 System.out.println(temperatura+" ªF");
                 break;
         }
